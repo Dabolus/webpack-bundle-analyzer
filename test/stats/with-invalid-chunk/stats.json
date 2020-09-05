@@ -6,7 +6,7 @@
   "time": 563,
   "builtAt": 1526827103238,
   "publicPath": "",
-  "outputPath": "/Volumes/Work/webpack-bundle-analyzer/test/output",
+  "outputPath": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/output",
   "assetsByChunkName": {
     "invalid": "invalid-chunk.js",
     "valid": "valid-chunk.js"
@@ -101,7 +101,7 @@
       "modules": [
         {
           "id": 1,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/invalid.js",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/invalid.js",
           "name": "./invalid.js",
           "index": 2,
           "index2": 2,
@@ -174,7 +174,7 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js d378c6a2195fc2426055093c3fdde76c",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js d378c6a2195fc2426055093c3fdde76c",
           "name": "./valid.js + 1 modules",
           "index": 0,
           "index2": 1,
@@ -212,7 +212,7 @@
           "modules": [
             {
               "id": null,
-              "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+              "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
               "name": "./valid.js",
               "index": 0,
               "index2": 1,
@@ -251,7 +251,7 @@
             },
             {
               "id": null,
-              "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/a.js",
+              "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/a.js",
               "name": "./a.js",
               "index": 1,
               "index2": 0,
@@ -261,13 +261,13 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+              "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
               "issuerId": null,
               "issuerName": "./valid.js",
               "issuerPath": [
                 {
                   "id": null,
-                  "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+                  "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
                   "name": "./valid.js"
                 }
               ],
@@ -278,7 +278,7 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
                   "module": "./valid.js",
                   "moduleName": "./valid.js",
                   "type": "harmony side effect evaluation",
@@ -287,7 +287,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
                   "module": "./valid.js",
                   "moduleName": "./valid.js",
                   "type": "harmony import specifier",
@@ -326,7 +326,7 @@
   "modules": [
     {
       "id": 0,
-      "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js d378c6a2195fc2426055093c3fdde76c",
+      "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js d378c6a2195fc2426055093c3fdde76c",
       "name": "./valid.js + 1 modules",
       "index": 0,
       "index2": 1,
@@ -364,7 +364,7 @@
       "modules": [
         {
           "id": null,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
           "name": "./valid.js",
           "index": 0,
           "index2": 1,
@@ -403,7 +403,7 @@
         },
         {
           "id": null,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/a.js",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/a.js",
           "name": "./a.js",
           "index": 1,
           "index2": 0,
@@ -413,13 +413,13 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+          "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
           "issuerId": null,
           "issuerName": "./valid.js",
           "issuerPath": [
             {
               "id": null,
-              "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+              "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
               "name": "./valid.js"
             }
           ],
@@ -430,7 +430,7 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
               "module": "./valid.js",
               "moduleName": "./valid.js",
               "type": "harmony side effect evaluation",
@@ -439,7 +439,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/valid.js",
+              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/valid.js",
               "module": "./valid.js",
               "moduleName": "./valid.js",
               "type": "harmony import specifier",
@@ -462,7 +462,7 @@
     },
     {
       "id": 1,
-      "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/invalid-chunk/invalid.js",
+      "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/invalid-chunk/invalid.js",
       "name": "./invalid.js",
       "index": 2,
       "index2": 2,

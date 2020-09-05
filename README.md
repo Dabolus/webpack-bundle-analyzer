@@ -17,15 +17,15 @@
 
 ```bash
 # NPM
-npm install --save-dev webpack-bundle-analyzer
+npm install --save-dev webpack-bundle-analyzer-brotli
 # Yarn
-yarn add -D webpack-bundle-analyzer
+yarn add -D webpack-bundle-analyzer-brotli
 ```
 
 <h2 align="center">Usage (as a plugin)</h2>
 
 ```js
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer-brotli').BundleAnalyzerPlugin;
 
 module.exports = {
   plugins: [
@@ -89,13 +89,13 @@ webpack --profile --json | Out-file 'stats.json' -Encoding OEM
 Then you can run the CLI tool.
 
 ```
-webpack-bundle-analyzer bundle/output/path/stats.json
+webpack-bundle-analyzer-brotli bundle/output/path/stats.json
 ```
 
 <h2 align="center">Options (for CLI)</h2>
 
 ```bash
-webpack-bundle-analyzer <bundleStatsFile> [bundleDir] [options]
+webpack-bundle-analyzer-brotli <bundleStatsFile> [bundleDir] [options]
 ```
 
 Arguments are documented below:
@@ -121,7 +121,7 @@ Directory containing all generated bundles.
   -r, --report <file>         Path to bundle report file that will be generated in `static` mode. (default: report.html)
   -t, --title <title>         String to use in title element of html report. (default: pretty printed current date)
   -s, --default-sizes <type>  Module sizes to show in treemap by default.
-                              Possible values: stat, parsed, gzip (default: parsed)
+                              Possible values: stat, parsed, gzip, brotli (default: parsed)
   -O, --no-open               Don't open report in default browser automatically.
   -e, --exclude <regexp>      Assets that should be excluded from the report.
                               Can be specified multiple times.
@@ -132,7 +132,7 @@ Directory containing all generated bundles.
 
 <h2 align="center" id="size-definitions">Size definitions</h2>
 
-webpack-bundle-analyzer reports three values for sizes. `defaultSizes` can be used to control which of these is shown by default. The different reported sizes are:
+webpack-bundle-analyzer-brotli reports four values for sizes. `defaultSizes` can be used to control which of these is shown by default. The different reported sizes are:
 
 ### `stat`
 
@@ -150,6 +150,10 @@ as Uglify, then this value will reflect the minified size of your code.
 ### `gzip`
 
 This is the size of running the parsed bundles/modules through gzip compression.
+
+### `brotli`
+
+This is the size of running the parsed bundles/modules through brotli compression.
 
 <h2 align="center">Selecting Which Chunks to Display</h2>
 
@@ -169,9 +173,9 @@ The Chunk Context Menu can be opened by right-clicking or `Ctrl`-clicking on a s
 
 <h2 align="center">Troubleshooting</h2>
 
-### I don't see `gzip` or `parsed` sizes, it only shows `stat` size
+### I don't see `gzip`, `brotli`, or `parsed` sizes, it only shows `stat` size
 
-It happens when `webpack-bundle-analyzer` analyzes files that don't actually exist in your file system, for example when you work with `webpack-dev-server` that keeps all the files in RAM. If you use `webpack-bundle-analyzer` as a plugin you won't get any errors, however if you run it via CLI you get the error message in terminal:
+It happens when `webpack-bundle-analyzer-brotli` analyzes files that don't actually exist in your file system, for example when you work with `webpack-dev-server` that keeps all the files in RAM. If you use `webpack-bundle-analyzer-brotli` as a plugin you won't get any errors, however if you run it via CLI you get the error message in terminal:
 ```
 Couldn't parse bundle asset "your_bundle_name.bundle.js".
 Analyzer will use module sizes from stats file.

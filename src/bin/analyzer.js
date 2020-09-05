@@ -11,7 +11,7 @@ const viewer = require('../viewer');
 const Logger = require('../Logger');
 const utils = require('../utils');
 
-const SIZES = new Set(['stat', 'parsed', 'gzip']);
+const SIZES = new Set(['stat', 'parsed', 'gzip', 'brotli']);
 
 const program = commander
   .version(require('../../package.json').version)

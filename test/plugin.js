@@ -43,7 +43,8 @@ describe('Plugin', function () {
 
     await expectValidReport({
       parsedSize: 1343,
-      gzipSize: 360
+      gzipSize: 360,
+      brotliSize: 304
     });
   });
 
@@ -105,7 +106,7 @@ describe('Plugin', function () {
 
         const generatedReportTitle = await getTitleFromReport();
 
-        expect(generatedReportTitle).to.match(/^webpack-bundle-analyzer \[.* at \d{2}:\d{2}\]/u);
+        expect(generatedReportTitle).to.match(/^webpack-bundle-analyzer-brotli \[.* at \d{2}:\d{2}\]/u);
       });
       it('should use a string', async function () {
         const reportTitle = 'A string report title';
@@ -162,7 +163,8 @@ describe('Plugin', function () {
       bundleLabel = 'bundle.js',
       statSize = 141,
       parsedSize = 2821,
-      gzipSize = 770
+      gzipSize = 770,
+      brotliSize = 560
     } = opts || {};
 
     expect(fs.existsSync(`${__dirname}/output/${bundleFilename}`), 'bundle file missing').to.be.true;
@@ -172,7 +174,8 @@ describe('Plugin', function () {
       label: bundleLabel,
       statSize,
       parsedSize,
-      gzipSize
+      gzipSize,
+      brotliSize
     });
   }
 

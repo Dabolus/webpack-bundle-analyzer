@@ -6,7 +6,7 @@
 <!--
 Please include the output of running the command below:
 
-npx envinfo --system --binaries --npmPackages=*webpack* --npmGlobalPackages=webpack-bundle-analyzer 
+npx envinfo --system --binaries --npmPackages=*webpack* --npmGlobalPackages=webpack-bundle-analyzer-brotli 
 
 -->
 
@@ -17,7 +17,7 @@ REPLACE THIS TEXT WITH THE OUTPUT FROM THE COMMAND ABOVE
 #### Debug info
 How do you use this module? As CLI utility or as plugin?
 
-If CLI, what command was used? (e.g. `webpack-bundle-analyzer -O path/to/stats.json`)
+If CLI, what command was used? (e.g. `webpack-bundle-analyzer-brotli -O path/to/stats.json`)
 
 If plugin, what options were provided? (e.g. `new BundleAnalyzerPlugin({ analyzerMode: 'disabled', generateStatsFile: true })`)
 

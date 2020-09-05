@@ -46,7 +46,7 @@
           "modules": [
             {
               "id": 0,
-              "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "name": "./src/index.js",
               "index": 0,
               "index2": 3,
@@ -72,7 +72,7 @@
             },
             {
               "id": 1,
-              "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/a.js",
+              "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/a.js",
               "name": "./src/a.js",
               "index": 1,
               "index2": 0,
@@ -85,7 +85,7 @@
                 0
               ],
               "assets": [],
-              "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "profile": {
                 "factory": 8,
                 "building": 6
@@ -96,7 +96,7 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
                   "module": "./src/index.js",
                   "moduleName": "./src/index.js",
                   "type": "cjs require",
@@ -108,7 +108,7 @@
             },
             {
               "id": 2,
-              "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/b.js",
+              "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/b.js",
               "name": "./src/b.js",
               "index": 2,
               "index2": 1,
@@ -121,7 +121,7 @@
                 0
               ],
               "assets": [],
-              "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "profile": {
                 "factory": 9,
                 "building": 5
@@ -132,7 +132,7 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
                   "module": "./src/index.js",
                   "moduleName": "./src/index.js",
                   "type": "cjs require",
@@ -144,7 +144,7 @@
             },
             {
               "id": 3,
-              "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/a-clone.js",
+              "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/a-clone.js",
               "name": "./src/a-clone.js",
               "index": 3,
               "index2": 2,
@@ -157,7 +157,7 @@
                 0
               ],
               "assets": [],
-              "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "profile": {
                 "factory": 10,
                 "building": 5
@@ -168,7 +168,7 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+                  "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
                   "module": "./src/index.js",
                   "moduleName": "./src/index.js",
                   "type": "cjs require",
@@ -183,8 +183,8 @@
           "origins": [
             {
               "moduleId": 0,
-              "module": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
-              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "module": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
+              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "moduleName": "./src/index.js",
               "loc": "",
               "name": "bundle",
@@ -196,7 +196,7 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
           "name": "./src/index.js",
           "index": 0,
           "index2": 3,
@@ -222,7 +222,7 @@
         },
         {
           "id": 1,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/a.js",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/a.js",
           "name": "./src/a.js",
           "index": 1,
           "index2": 0,
@@ -235,7 +235,7 @@
             0
           ],
           "assets": [],
-          "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+          "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
           "profile": {
             "factory": 8,
             "building": 6
@@ -246,7 +246,7 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "cjs require",
@@ -258,7 +258,7 @@
         },
         {
           "id": 2,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/b.js",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/b.js",
           "name": "./src/b.js",
           "index": 2,
           "index2": 1,
@@ -271,7 +271,7 @@
             0
           ],
           "assets": [],
-          "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+          "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
           "profile": {
             "factory": 9,
             "building": 5
@@ -282,7 +282,7 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "cjs require",
@@ -294,7 +294,7 @@
         },
         {
           "id": 3,
-          "identifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/a-clone.js",
+          "identifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/a-clone.js",
           "name": "./src/a-clone.js",
           "index": 3,
           "index2": 2,
@@ -307,7 +307,7 @@
             0
           ],
           "assets": [],
-          "issuer": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+          "issuer": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
           "profile": {
             "factory": 10,
             "building": 5
@@ -318,7 +318,7 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer/test/src/index.js",
+              "moduleIdentifier": "/Volumes/Work/webpack-bundle-analyzer-brotli/test/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "cjs require",

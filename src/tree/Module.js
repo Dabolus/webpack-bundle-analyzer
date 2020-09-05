@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import gzipSize from 'gzip-size';
+import brotliSize from 'brotli-fsize';
 
 import Node from './Node';
 
@@ -17,6 +18,7 @@ export default class Module extends Node {
   set src(value) {
     this.data.parsedSrc = value;
     delete this._gzipSize;
+    delete this._brotliSize;
   }
 
   get size() {
@@ -39,6 +41,14 @@ export default class Module extends Node {
     return this._gzipSize;
   }
 
+  get brotliSize() {
+    if (!_.has(this, '_brotliSize')) {
+      this._brotliSize = this.src ? brotliSize.sync(this.src) : undefined;
+    }
+
+    return this._brotliSize;
+  }
+
   mergeData(data) {
     if (data.size) {
       this.size += data.size;
@@ -56,7 +66,8 @@ export default class Module extends Node {
       path: this.path,
       statSize: this.size,
       parsedSize: this.parsedSize,
-      gzipSize: this.gzipSize
+      gzipSize: this.gzipSize,
+      brotliSize: this.brotliSize
     };
   }
 

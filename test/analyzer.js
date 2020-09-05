@@ -147,7 +147,7 @@ describe('Analyzer', function () {
 
         const generatedReportTitle = await getTitleFromReport();
 
-        expect(generatedReportTitle).to.match(/^webpack-bundle-analyzer \[.* at \d{2}:\d{2}\]/u);
+        expect(generatedReportTitle).to.match(/^webpack-bundle-analyzer-brotli \[.* at \d{2}:\d{2}\]/u);
       });
     });
   });

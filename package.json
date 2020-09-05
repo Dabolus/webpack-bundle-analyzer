@@ -1,22 +1,22 @@
 {
-  "name": "webpack-bundle-analyzer",
-  "version": "3.8.0",
+  "name": "webpack-bundle-analyzer-brotli",
+  "version": "4.0.0",
   "description": "Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap",
   "author": "Yury Grunin <grunin.ya@ya.ru>",
   "license": "MIT",
-  "homepage": "https://github.com/webpack-contrib/webpack-bundle-analyzer",
-  "changelog": "https://github.com/webpack-contrib/webpack-bundle-analyzer/blob/master/CHANGELOG.md",
+  "homepage": "https://github.com/Dabolus/webpack-bundle-analyzer-brotli",
+  "changelog": "https://github.com/Dabolus/webpack-bundle-analyzer-brotli/blob/master/CHANGELOG.md",
   "bugs": {
-    "url": "https://github.com/webpack-contrib/webpack-bundle-analyzer/issues"
+    "url": "https://github.com/Dabolus/webpack-bundle-analyzer-brotli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webpack-contrib/webpack-bundle-analyzer.git"
+    "url": "git+https://github.com/Dabolus/webpack-bundle-analyzer-brotli.git"
   },
   "main": "lib/index.js",
   "bin": "lib/bin/analyzer.js",
   "engines": {
-    "node": ">= 6.14.4"
+    "node": ">= 11.7.0"
   },
   "scripts": {
     "start": "gulp watch",
@@ -36,6 +36,7 @@
     "acorn": "^7.1.1",
     "acorn-walk": "^7.1.1",
     "bfj": "^6.1.1",
+    "brotli-fsize": "^1.0.3",
     "chalk": "^2.4.1",
     "commander": "^2.18.0",
     "ejs": "^2.6.1",

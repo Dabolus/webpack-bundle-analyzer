@@ -1,6 +1,6 @@
 # Contributing
 
-To contribute to `webpack-bundle-analyzer`, fork the repository and clone it to your machine. [See this GitHub help page for what forking and cloning means](https://help.github.com/articles/fork-a-repo/)
+To contribute to `webpack-bundle-analyzer-brotli`, fork the repository and clone it to your machine. [See this GitHub help page for what forking and cloning means](https://help.github.com/articles/fork-a-repo/)
 
 ## Setup packages
 
@@ -29,29 +29,29 @@ yarn link
 npm link
 ```
 
-Now go to your own project directory, and tell `npm` or `yarn` to use the local copy of `webpack-bundle-analyzer` package:
+Now go to your own project directory, and tell `npm` or `yarn` to use the local copy of `webpack-bundle-analyzer-brotli` package:
 
 ```sh
 cd /path/to/my/own/project
 # If you're using yarn, run this:
-yarn link webpack-bundle-analyzer
+yarn link webpack-bundle-analyzer-brotli
 # ...and if you're not, and you're using just npm in your own
 # project, run this:
-npm link webpack-bundle-analyzer
+npm link webpack-bundle-analyzer-brotli
 ```
 
-Now when you call `require('webpack-bundle-analyzer')` in your own project, you will actually be using the local copy of the `webpack-bundle-analyzer` project.
+Now when you call `require('webpack-bundle-analyzer-brotli')` in your own project, you will actually be using the local copy of the `webpack-bundle-analyzer-brotli` project.
 
-If your own project's Webpack config has `BundleAnalyzerPlugin` configured with `analyzerMode: 'server'`, the changes you do inside `client` folder within your local copy of `webpack-bundle-analyzer` should now be immediately visible after you refresh your browser page. Hack away!
+If your own project's Webpack config has `BundleAnalyzerPlugin` configured with `analyzerMode: 'server'`, the changes you do inside `client` folder within your local copy of `webpack-bundle-analyzer-brotli` should now be immediately visible after you refresh your browser page. Hack away!
 
 ## Send your changes back to us! :revolving_hearts:
 
-We'd love for you to contribute your changes back to `webpack-bundle-analyzer`! To do that, it would be ace if you could commit your changes to a separate feature branch and open a Pull Request for those changes.
+We'd love for you to contribute your changes back to `webpack-bundle-analyzer-brotli`! To do that, it would be ace if you could commit your changes to a separate feature branch and open a Pull Request for those changes.
 
 Point your feature branch to use the `master` branch as the base of this PR. The exact commands used depends on how you've setup your local git copy, but the flow could look like this:
 
 ```sh
-# Inside your own copy of `webpack-bundle-analyzer` package...
+# Inside your own copy of `webpack-bundle-analyzer-brotli` package...
 git checkout --branch feature-branch-name-here upstream/master
 # Then hack away, and commit your changes:
 git add -A
